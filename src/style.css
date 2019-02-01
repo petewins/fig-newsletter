@@ -1,0 +1,95 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+h1, p {
+  font-family: Lato;
+  color: #94AEBF;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+body{
+  background: #120F23;
+}
+
+.btn {
+  height: 45px;
+  width: 100%;
+  font-family: Open Sans;
+  text-transform: uppercase;
+}
+
+.btn-center {
+  display: flex;
+  align-self: center;
+}
+
+.form-title {
+color: #94AEBF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+text-transform: uppercase;
+line-height: 26px;
+font-size: 20px;
+padding: .5rem;
+}
+
+.form-control {
+background: rgb(61, 57, 83);
+mix-blend-mode: normal;
+border-radius: 5px;
+border-color: rgb(61, 57, 83);
+color: #fff;
+height: 45px;
+margin: 1rem 0;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: grey;
+  opacity: 1;
+
+}
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 2rem;
+}
+
+.newsletter-form {
+  width: 320px;
+  text-align: center;
+}
+
+
+/* (tablets 768px and up) */
+@media (min-width: 768px) { 
+  .newsletter-form {
+    width: 520px;
+  }
+}
+
+/* (landscape tablets, 992px and up) */
+@media (min-width: 992px) { 
+  .newsletter-form {
+    width: 620px;
+    text-align: left;
+  }
+  .form-title {
+    padding: 1rem 0;
+  }
+ }
+
+/* ( desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .newsletter-form {
+    width: 720px;
+    text-align: left;
+  }
+  }
