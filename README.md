@@ -1,5 +1,3 @@
-#Awesome Newsletter App
-
 ## Setting up project
 
 In the project directory, open terminal or console and run:
